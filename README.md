@@ -1,5 +1,7 @@
 # Mechine Learning Offline Networkflow Detection
 
+## 簡述
+- 透過已有的網路封包資料集，經過特徵萃取後對模型進行訓練，以達到對於離線網路流中是否有惡意流量之預測
 ## 功能
 - 特徵萃取
 - 模型訓練
@@ -7,12 +9,15 @@
 
 ## 主要操作檔案
 - final/
-  - featurextration/
+  - feature_extration/
     - raw/(存放原始封包檔案)
-      - demo-ioc/
+      - xxx/
+        - xxx.pcap
+        - IOC.txt(有問題的特徵)
     - csv/(特徵萃取過的檔案)
       - full_data.csv
     - run.sh
+
   - model/
     -  lstm.h5
     -  detect.py
@@ -20,7 +25,8 @@
     -  train.csv
 
 ## 操作說明
-- 模型訓練
-  > detect.py -t train
-- 特徵萃取
-  > run.sh raw/foldername
+- 模型訓練 (model/)
+  > python3 detect.py -t train
+- 特徵萃取(feature_rxtration/)
+  > tmux 
+  > run.sh raw/foldername/
