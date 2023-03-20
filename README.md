@@ -30,3 +30,9 @@
 - 特徵萃取(feature_rxtration/)
   > tmux 
   > run.sh raw/foldername/
+
+## 環境配置
+- wsl
+  > wsl --import Ubuntu {目的資料夾} {wsl.tar 路徑}
+  - pipenv 
+- Nvidia driver (加速用)
