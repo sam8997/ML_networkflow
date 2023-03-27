@@ -1,7 +1,7 @@
 # Mechine Learning Offline Networkflow Detection
 
 ## 簡述
-- 透過已有的網路封包資料集，經過特徵萃取後對模型進行訓練，以達到對於離線網路流中是否有惡意流量之預測
+- 透過已有的網路封包資料集，經過特徵萃取(ZEEK)後，餵入模型進行訓練，以達到對於離線網路流中是否有惡意流量之預測
 ## 功能
 - 特徵萃取
 - 模型訓練
@@ -36,7 +36,7 @@
   > wsl --import Ubuntu {目的資料夾} {wsl.tar 路徑}
   - pipenv 
   - tmux
-- docker
+- docker(ZEEK)
   - broplatform:4.1.0
 - Nvidia driver (加速用)
   - cuda
