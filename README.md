@@ -19,7 +19,7 @@
     - run.sh
 
   - model/
-    -  lstm.h5
+    -  lstm.h5(模型參數)
     -  detect.py
     -  test.csv
     -  train.csv
@@ -35,4 +35,7 @@
 - wsl
   > wsl --import Ubuntu {目的資料夾} {wsl.tar 路徑}
   - pipenv 
+  - tmux
+  - 
 - Nvidia driver (加速用)
+  - cuda
