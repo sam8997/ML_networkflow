@@ -36,6 +36,7 @@
   > wsl --import Ubuntu {目的資料夾} {wsl.tar 路徑}
   - pipenv 
   - tmux
-  - 
+- docker
+  - broplatform:4.1.0
 - Nvidia driver (加速用)
   - cuda
