@@ -27,6 +27,8 @@
 ## 操作說明
 - 模型訓練 (model/)
   > python3 detect.py -t train
+- 預測
+  > python3 detect.py -t predict -p -m
 - 特徵萃取(feature_rxtration/)
   > tmux 
   > run.sh raw/foldername/
